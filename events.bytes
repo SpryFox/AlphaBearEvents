@@ -18,6 +18,6 @@
   RepeatEvery: Day
   
 - Name: PayDay
-  StartDate: 2014/10/29 # limited functionality, make sure this date exists in every month
+  StartDate: 2014/1/31 # if <31 days this month, will clamp to last
   DurationHours: 24
   RepeatEvery: Month
