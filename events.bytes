@@ -6,7 +6,18 @@
 - Name: TuesdayIsNoPantsDay
   StartDate: 2014/11/4
   DurationHours: 24
+  RepeatEvery: Week
   
 - Name: MondayParty
   StartDate: 2014/11/3
   DurationHours: 24
+  
+- Name: RushHourBearHunt
+  StartDate: 4:00 PM
+  DurationHours: 2
+  RepeatEvery: Day
+  
+- Name: PayDay
+  StartDate: 2014/10/29 # limited functionality, make sure this date exists in every month
+  DurationHours: 24
+  RepeatEvery: Month
