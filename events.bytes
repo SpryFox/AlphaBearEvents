@@ -5,12 +5,12 @@
   
 - Name: TuesdayIsNoPantsDay
   StartDate: 2014/11/4
-  Duration: 24:00
+  Duration: 1 # day
   RepeatEvery: Week
   
 - Name: MondayParty
   StartDate: 2014/11/3
-  Duration: 24:00
+  Duration: 1 
   
 - Name: RushHourBearHunt
   StartDate: 4:00 PM
@@ -19,5 +19,5 @@
   
 - Name: PayDay
   StartDate: 2014/1/31 # if <31 days this month, will clamp to last
-  Duration: 24:00
+  Duration: 1 
   RepeatEvery: Month
