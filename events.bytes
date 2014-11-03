@@ -1,0 +1,12 @@
+# here is some events info
+- Name: Thanksgiving
+  StartDate: 2014/11/27
+  DurationHours: 48
+  
+- Name: TuesdayIsNoPantsDay
+  StartDate: 2014/11/4
+  DurationHours: 24
+  
+- Name: MondayParty
+  StartDate: 2014/11/3
+  DurationHours: 24
