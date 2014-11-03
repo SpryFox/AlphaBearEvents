@@ -1,11 +1,11 @@
 # here is some events info
 - Name: Thanksgiving
   StartDate: 2014/11/27
-  Duration: 48:00 # hh:mm, also supported: http://msdn.microsoft.com/en-us/library/se73z7b9(v=vs.90).aspx
+  Duration: 2 # days, also support hh:mm, see: http://msdn.microsoft.com/en-us/library/se73z7b9(v=vs.90).aspx
   
 - Name: TuesdayIsNoPantsDay
   StartDate: 2014/11/4
-  Duration: 1 # day
+  Duration: 1 
   RepeatEvery: Week
   
 - Name: MondayParty
@@ -14,7 +14,7 @@
   
 - Name: RushHourBearHunt
   StartDate: 4:00 PM
-  Duration: 2:00
+  Duration: 2:00 # hh:mm
   RepeatEvery: Day
   
 - Name: PayDay
