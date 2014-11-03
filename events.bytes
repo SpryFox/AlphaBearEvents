@@ -1,23 +1,23 @@
 # here is some events info
 - Name: Thanksgiving
   StartDate: 2014/11/27
-  DurationHours: 48
+  Duration: 48:00 # hh:mm, also supported: http://msdn.microsoft.com/en-us/library/se73z7b9(v=vs.90).aspx
   
 - Name: TuesdayIsNoPantsDay
   StartDate: 2014/11/4
-  DurationHours: 24
+  Duration: 24:00
   RepeatEvery: Week
   
 - Name: MondayParty
   StartDate: 2014/11/3
-  DurationHours: 24
+  Duration: 24:00
   
 - Name: RushHourBearHunt
   StartDate: 4:00 PM
-  DurationHours: 2
+  Duration: 2:00
   RepeatEvery: Day
   
 - Name: PayDay
   StartDate: 2014/1/31 # if <31 days this month, will clamp to last
-  DurationHours: 24
+  Duration: 24:00
   RepeatEvery: Month
