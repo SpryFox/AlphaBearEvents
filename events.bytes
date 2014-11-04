@@ -2,22 +2,48 @@
 - Name: Thanksgiving
   StartDate: 2014/11/27
   Duration: 2 # days, also support hh:mm, see: http://msdn.microsoft.com/en-us/library/se73z7b9(v=vs.90).aspx
+  Rules: # big board to relax into after all that food!
+    IsTimed: false
+    FirstTurnLifetime: 5
+    LetterLifetime: 4
+    BoardBounds: 
+      Min: [-5, -5]
+      Max: [5, 5]
   
 - Name: TuesdayIsNoPantsDay
   StartDate: 2014/11/4
   Duration: 1 
   RepeatEvery: Week
+  Rules:
+    IsTimed: true
+    TimeLimit: 120
+    SuperLetterLifetime: 20
   
 - Name: MondayParty
   StartDate: 2014/11/3
   Duration: 1 
+  Rules:
+    IsTimed: false
+    LetterLifetime: 5
+    FirstTurnLifetime: 6
   
 - Name: RushHourBearHunt
   StartDate: 4:00 PM
   Duration: 2:00 # hh:mm
   RepeatEvery: Day
+  Rules:
+    IsTimed: true
+    TimeLimit: 60
+    BoardBounds: 
+      Min: [-3, -2]
+      Max: [3, 2]
   
 - Name: PayDay
   StartDate: 2014/1/31 # if <31 days this month, will clamp to last
   Duration: 1 
   RepeatEvery: Month
+  Rules:
+    IsTimed: false
+    TimeLimit: 60
+    LetterLifetime: 7
+    FirstTurnLifetime: 8
