@@ -10,7 +10,7 @@
       Min: [-5, -5]
       Max: [5, 5]
   
-- Name: TuesdayIsNoPantsDay
+- Name: No-Pants Tuesday
   StartDate: 2014/11/4
   Duration: 1 
   RepeatEvery: Week
@@ -19,7 +19,7 @@
     TimeLimit: 120
     SuperLetterLifetime: 20
   
-- Name: MondayParty
+- Name: Start The Week
   StartDate: 2014/11/3
   Duration: 1 
   Rules:
@@ -27,7 +27,7 @@
     LetterLifetime: 5
     FirstTurnLifetime: 6
   
-- Name: RushHourBearHunt
+- Name: Rush Hour Bear Hunt
   StartDate: 4:00 PM
   Duration: 2:00 # hh:mm
   RepeatEvery: Day
@@ -38,7 +38,7 @@
       Min: [-3, -2]
       Max: [3, 2]
   
-- Name: PayDay
+- Name: Pay Day
   StartDate: 2014/1/31 # if <31 days this month, will clamp to last
   Duration: 1 
   RepeatEvery: Month
