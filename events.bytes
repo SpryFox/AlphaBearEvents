@@ -47,8 +47,32 @@
     TimeLimit: 60
     LetterLifetime: 7
     FirstTurnLifetime: 8
+
+# permenant modes
     
-# - Name: Practice
-#   Duration: -1 # forever, no start date
-#   Rules:
-#     IsTimed: false
+- Name: Timed
+  Duration: -1
+  Rules:
+    IsTimed: true
+    TimeLimit: 120
+
+- Name: Practice
+  Duration: -1
+  Rules:
+    IsTimed: false
+
+- Name: Big
+  Duration: -1
+  Rules:
+    IsTimed: false
+    BoardBounds:
+      Min: [-4, -4]
+      Max: [5, 5]
+
+- Name: Tutorial # magic keyword
+  Duration: -1
+  Rules:
+    IsTimed: false
+    BoardBounds:
+      Min: [-3, -2]
+      Max: [3, 3]
