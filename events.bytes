@@ -48,7 +48,7 @@
     LetterLifetime: 7
     FirstTurnLifetime: 8
     
-- Name: Practice
-  Duration: -1 # forever, no start date
-  Rules:
-    IsTimed: false
+# - Name: Practice
+#   Duration: -1 # forever, no start date
+#   Rules:
+#     IsTimed: false
