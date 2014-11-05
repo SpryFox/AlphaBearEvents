@@ -49,6 +49,6 @@
     FirstTurnLifetime: 8
     
 - Name: Practice
-  Duration: -1
+  Duration: -1 # forever, no start date
   Rules:
     IsTimed: false
