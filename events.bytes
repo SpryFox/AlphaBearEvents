@@ -47,3 +47,8 @@
     TimeLimit: 60
     LetterLifetime: 7
     FirstTurnLifetime: 8
+    
+- Name: Practice
+  Duration: -1
+  Rules:
+    IsTimed: false
