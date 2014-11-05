@@ -51,7 +51,7 @@
 # permenant modes
     
 - Name: Timed
-  Duration: -1
+  Duration: -1 # -1 means forever, never expires or repeats.
   Rules:
     IsTimed: true
     TimeLimit: 120
