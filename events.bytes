@@ -70,9 +70,9 @@
       Max: [5, 5]
 
 - Name: Tutorial 
-  IsTutorial: true
   Duration: -1
   Rules:
+    IsTutorial: true
     IsTimed: false
     BoardBounds:
       Min: [-3, -2]
