@@ -47,6 +47,16 @@
     TimeLimit: 60
     LetterLifetime: 7
     FirstTurnLifetime: 8
+    
+- Name: Thursdayyy
+  StartDate: 2014/11/6
+  Duration: 1
+  RepeatEvery: Week
+  Rules:
+    IsTimed: true
+    TimeLimit: 180
+    Modifiers:
+      ForcedSuperLetters: thursday
 
 # permenant modes
     
