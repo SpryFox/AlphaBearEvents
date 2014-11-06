@@ -58,7 +58,7 @@
     Modifiers:
       ForcedSuperLetters: thursday
       BannedLetters: mnf # all mon-sun consonants that aren't in thursday!
-      LetterWeightBonuses: {t: 5, h: 5, r: 5, s: 5, d: 5, y: 5}
+      LetterWeightBonuses: {t: 5, h: 5, r: 5, s: 5, d: 5, y: 5, e: -5}
 
 # permenant modes
     
