@@ -69,7 +69,8 @@
       Min: [-4, -4]
       Max: [5, 5]
 
-- Name: Tutorial # magic keyword
+- Name: Tutorial 
+  IsTutorial: true
   Duration: -1
   Rules:
     IsTimed: false
