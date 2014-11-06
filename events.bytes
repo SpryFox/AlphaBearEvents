@@ -57,6 +57,7 @@
     TimeLimit: 180
     Modifiers:
       ForcedSuperLetters: thursday
+      BannedLetters: monefi # all mon-sun letters that aren't in thursday!
 
 # permenant modes
     
