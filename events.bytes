@@ -59,6 +59,20 @@
       ForcedSuperLetters: thursday
       BannedLetters: mnf # all mon-sun consonants that aren't in thursday!
       LetterWeightBonuses: {t: 5, h: 5, r: 5, s: 5, d: 5, y: 5, e: -5}
+      
+- Name: Layout
+  Duration: -1
+  Rules:
+    IsTimed: false
+    BoardLayout: |
+      ,,,,,,,
+      ,,,,,,,
+      ,,,,,,,
+      ,x,,,x,
+      ,x,,,x,
+      ,x,,,x,
+      xxaaaxx
+      xxa@axx
 
 # permenant modes
     
