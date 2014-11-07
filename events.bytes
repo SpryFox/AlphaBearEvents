@@ -62,6 +62,7 @@
       
 - Name: Layout
   Duration: -1
+  IconPath: icons/test2.png
   Rules:
     IsTimed: false
     BoardLayout: |
