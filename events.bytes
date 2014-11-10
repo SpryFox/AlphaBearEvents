@@ -9,6 +9,10 @@
     BoardBounds: 
       Min: [-5, -5]
       Max: [5, 5]
+  Rewards:
+    - Above: 0
+      Only: {Gold: 5}
+
   
 - Name: No-Pants Tuesday
   StartDate: 2014/11/4
@@ -18,6 +22,9 @@
     IsTimed: true
     TimeLimit: 120
     SuperLetterLifetime: 20
+  Rewards:
+    - Above: 0
+      Only: {Gold: 5}
   
 - Name: Start The Week
   StartDate: 2014/11/3
@@ -26,6 +33,9 @@
     IsTimed: false
     LetterLifetime: 5
     FirstTurnLifetime: 6
+  Rewards:
+    - Above: 0
+      Only: {Gold: 5}
   
 - Name: Rush Hour Bear Hunt
   StartDate: 4:00 PM
@@ -37,6 +47,9 @@
     BoardBounds: 
       Min: [-3, -2]
       Max: [3, 2]
+  Rewards:
+    - Above: 0
+      Only: {Gold: 5}
   
 - Name: Pay Day
   StartDate: 2014/1/31 # if <31 days this month, will clamp to last
@@ -47,6 +60,9 @@
     TimeLimit: 60
     LetterLifetime: 7
     FirstTurnLifetime: 8
+  Rewards:
+    - Above: 0
+      Only: {Gold: 5}
     
 - Name: Thursdayyy
   StartDate: 2014/11/6
@@ -59,6 +75,9 @@
       ForcedSuperLetters: thursday
       BannedLetters: mnf # all mon-sun consonants that aren't in thursday!
       LetterWeightBonuses: {t: 5, h: 5, r: 5, s: 5, d: 5, y: 5, e: -5}
+  Rewards:
+    - Above: 0
+      Only: {Gold: 5}
       
 - Name: Layout
   Duration: -1
@@ -74,6 +93,9 @@
       ,x,,,x,
       xxaaaxx
       xxa@axx
+  Rewards:
+    - Above: 0
+      Only: {Gold: 5}
 
 # permenant modes
     
@@ -83,11 +105,28 @@
   Rules:
     IsTimed: true
     TimeLimit: 120
+  Rewards:
+    - Above: 0
+      Only: {Gold: 5}
+    - Above: 400
+      OneOf:
+        - Gold: 5
+        - Bear: Polar
+    - Above: 800
+      OneOf:
+        - Gold: 20
+        - Gold: 30
+        - Bear: Spectacled
+        - Bear: Ninja
+
 
 - Name: Practice
   Duration: -1
   Rules:
     IsTimed: false
+  Rewards:
+    - Above: 0
+      Only: {Gold: 5}
 
 - Name: Big
   Duration: -1
@@ -96,6 +135,9 @@
     BoardBounds:
       Min: [-4, -4]
       Max: [5, 5]
+  Rewards:
+    - Above: 0
+      Only: {Gold: 5}
 
 - Name: Tutorial 
   Duration: -1
@@ -105,3 +147,6 @@
     BoardBounds:
       Min: [-3, -2]
       Max: [3, 3]
+  Rewards:
+    - Above: 0
+      Only: {Gold: 5}
