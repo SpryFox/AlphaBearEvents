@@ -110,12 +110,14 @@
       Only: {Gold: 5}
     - Above: 400
       OneOf:
-        - Gold: 5
+        - Gold: 15
         - Bear: Polar
-    - Above: 800
+    - Above: 1000
+      Only: {Gold: 20}
+    - Above: 1500
       OneOf:
-        - Gold: 20
-        - Gold: 30
+        - Gold: 25
+        - Gold: 35
         - Bear: Spectacled
         - Bear: Ninja
 
