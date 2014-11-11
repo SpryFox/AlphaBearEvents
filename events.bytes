@@ -72,8 +72,8 @@
     IsTimed: true
     TimeLimit: 180
     Modifiers:
-      ForcedSuperLetters: thursday
-      BannedLetters: mnf # all mon-sun consonants that aren't in thursday!
+      ForcedSuperLetters: [t,h,u,r,s,d,a,y]
+      BannedLetters: [m,n,f] # all mon-sun consonants that aren't in thursday!
       LetterWeightBonuses: {t: 5, h: 5, r: 5, s: 5, d: 5, y: 5, e: -5}
   Rewards:
     - Above: 0
